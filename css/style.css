@@ -13,6 +13,13 @@ nav{
   background-color: #E8EAF3;
 }
 
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #E8EAF3;
+  padding: 30px;
+}
+
 img{
   display: flex;
   width: 60%;
@@ -21,21 +28,13 @@ img{
   padding: 50px;
 }
 
-.iframe-container{
-  display: flex;
-  width: 60%;
-  height: auto;
+iframe{
+  width: 70%;
+  height: 200px;
   margin: 20px auto;
   padding: 50px;
 }
 
-
-
-#navbar-container{
-  float: left;  
-  width: 100%; 
-  position: relative;
-}
 
 nav ul{
   margin: 0;
@@ -53,7 +52,7 @@ nav ul li{
   list-style-type: none; 
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
+  font-size: 20px;
   text-shadow: -2px 0px #F6638F, 0px 2px #F6638F, 2px 0px #F6638F, 0px -2px #F6638F;
 }
 
@@ -79,7 +78,7 @@ section{
   overflow: auto;
   padding: 0px 20px 20px 20px;
   box-shadow: 
-    0 0 0 3px #F6638F,  /* 첫 번째 테두리: 빨간색, 5px 너비 */
+    0 0 0 3px #F6638F,  
     0 0 0 10px #FFFFFF;
   text-align: center;
   margin: 40px auto;
@@ -90,7 +89,7 @@ section{
   color: #FFFFFF;
   font-family: 'Press Start 2P', cursive;
   text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
-  font-size: 50px;
+  font-size: 40px;
   padding-left: 50px;
   margin: 50px 10% 50px auto;
 }
