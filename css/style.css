@@ -1,0 +1,61 @@
+nav{
+  overflow: hidden;   
+  background-color: #E8EAF3;
+}
+
+#navbar-container{
+  float: left;  
+  width: 100%; 
+  position: relative;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  position: relative;
+  display: block;
+  right: 50%;
+  list-style-type: none; 
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  text-shadow: -2px 0px #F6638F, 0px 2px #F6638F, 2px 0px #F6638F, 0px -2px #F6638F;
+}
+
+nav ul li a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  background-color: #FFCBDA;
+}
+
+#onpage{
+  text-decoration: underline #FFFFFF;
+}
+
+body{
+  background:repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px);
+}
+
+section{
+  color: black;
+  background-color: #FFFFFF;
+  width:60%;
+  overflow: auto;
+  padding: 20px;
+  border: 2px solid #F6638F;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+}
