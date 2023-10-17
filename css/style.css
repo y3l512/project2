@@ -1,4 +1,4 @@
-body{
+body{ 
   background:repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px);
 }
 
@@ -34,7 +34,6 @@ iframe{
   margin: 20px auto;
   padding: 50px;
 }
-
 
 nav ul{
   margin: 0;
