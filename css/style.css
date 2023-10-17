@@ -5,12 +5,31 @@ body{
 p{
   font-size: 13px;
   color: #868E96;
+  font-weight: 500;
 }
 
 nav{
   overflow: hidden;   
   background-color: #E8EAF3;
 }
+
+img{
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.iframe-container{
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+
 
 #navbar-container{
   float: left;  
@@ -89,5 +108,7 @@ section{
   color:#FFCBDA;
   font-family: 'Press Start 2P', cursive;
   font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
