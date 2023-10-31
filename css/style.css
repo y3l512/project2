@@ -18,6 +18,7 @@ footer{
   height: 60px;
   background-color: #E8EAF3;
   padding: 30px;
+  clear:left;
 }
 
 img{
@@ -26,6 +27,7 @@ img{
   height: auto;
   margin: 0 auto;
   padding: 50px;
+  position: inherit;
 }
 
 iframe{
@@ -83,6 +85,7 @@ section{
   text-align: center;
   margin: 40px auto;
   border-radius: 10px;
+  position: inherit;
 }
 
 .site-title{
