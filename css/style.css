@@ -21,12 +21,47 @@ footer{
   clear:left;
 }
 
+.la-img{
+  float:left;
+  padding-top: 0.3em;
+}
+
+.la-sub{
+  text-align: left;
+  padding-top: 0.3em;
+}
+
+.la-wrap{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-wrap{
+  padding-left:20px;
+  width:50%;
+
+}
+
+.img-wrap{
+  width:50%;
+}
+
+#onpage{
+  color: #F6638F;
+}
+
+.img-container > a:hover{
+  transition: 0.5s;
+  background-color: #FFCBDA;
+  filter: opacity(0.5) blur(2px);
+}
+
 img{
   display: flex;
-  width: 60%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   position: inherit;
 }
 
@@ -69,23 +104,29 @@ nav ul li a:hover{
   background-color: #FFCBDA;
 }
 
-#onpage{
-  text-decoration: #FFFFFF;
-}
-
 section{
   color: black;
   background: linear-gradient(180deg, #FEFACA 80px, white 10px);
   width:60%;
-  overflow: auto;
-  padding: 0px 20px 20px 20px;
+  overflow: hidden;
+  padding: 20px 20px 20px 20px;
   box-shadow: 
     0 0 0 3px #F6638F,  
     0 0 0 10px #FFFFFF;
   text-align: center;
   margin: 40px auto;
   border-radius: 10px;
-  position: inherit;
+  position:relative;
+}
+
+.sec-wrap{
+  padding-top: 100px;
+}
+
+.site-title-wrap{
+  width: 100%;
+  position:relative;
+  padding-bottom: 10px;
 }
 
 .site-title{
@@ -99,7 +140,7 @@ section{
 }
 
 .sec-title{
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 50px;
   font-size: 25px;
   font-family: 'Press Start 2P', cursive;
