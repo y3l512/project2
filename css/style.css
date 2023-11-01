@@ -28,7 +28,7 @@ footer{
 
 .la-sub{
   text-align: left;
-  padding-top: 0.3em;
+  padding-top: 0.1em;
 }
 
 .la-wrap{
@@ -47,13 +47,17 @@ footer{
 }
 
 #onpage{
-  color: #F6638F;
+  background-color: #F6638F;
 }
 
 .img-container > a:hover{
   transition: 0.5s;
   background-color: #FFCBDA;
   filter: opacity(0.5) blur(2px);
+}
+
+.bold{
+  font-weight: bold;
 }
 
 img{
@@ -90,7 +94,7 @@ nav ul li{
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
-  text-shadow: -2px 0px #F6638F, 0px 2px #F6638F, 2px 0px #F6638F, 0px -2px #F6638F;
+  text-shadow: -3px 0px #F6638F, 0px 3px #F6638F, 3px 0px #F6638F, 0px -3px #F6638F;
 }
 
 nav ul li a{
