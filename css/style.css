@@ -60,6 +60,13 @@ footer{
   font-weight: bold;
 }
 
+#rsm-img{
+  width: 10em;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
 img{
   display: flex;
   width: 90%;
@@ -160,10 +167,5 @@ section{
   margin-top: 30px;
 }
 
-#rsm-img{
-  width: 10em;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
+
 
